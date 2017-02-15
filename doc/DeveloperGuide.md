@@ -45,9 +45,9 @@ Title: "renaming of an existing tag"
 Actor: User
 MSS:
 1. User enters renameTag command in the command line
-2. Address book requests for contact name.
-3. User enters contact name.
-4. Address book requests for new tag.
+2. Address book requests for tag name.
+3. User enters tag name.
+4. Address book requests for new tag name.
 5. User enters new tag.
 6. Address book change the existing tag to the new tag. 
 Extensions:
