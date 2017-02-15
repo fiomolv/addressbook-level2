@@ -40,6 +40,20 @@
 ### User stories
 1. As a user, I want to set priority of contact information in the address book so that the people with the highest priority will be shown at the top.
 
+### Use case
+Title: "renaming of an existing tag"
+Actor: User
+MSS:
+1. User enters renameTag command in the command line
+2. Address book requests for contact name.
+3. User enters contact name.
+4. Address book requests for new tag.
+5. User enters new tag.
+6. Address book change the existing tag to the new tag. 
+Extensions:
+3. User enters wrong name.
+    Address book goes back to step 1
+Use case ends
 
 ### JUnit tests
 
