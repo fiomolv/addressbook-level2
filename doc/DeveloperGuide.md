@@ -37,6 +37,10 @@
 3. If the script reports that there is no difference between `actual.txt` and `expected.txt`, 
    the test has passed.
 
+### User stories
+1. As a user, I want to set priority of contact information in the address book so that the people with the highest priority will be shown at the top.
+
+
 ### JUnit tests
 
 * In Eclipse, right-click on the `test/java` folder and choose `Run as` > `JUnit Test`
